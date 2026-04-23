@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+section {
+    display: flex;
+    width: 1000px;
+    gap: 20px;
+}
+
+section img {
+    width: 400px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+article h1 {
+    color: green;
+}
+
+article h2 {
+    font-size: 20px;
+}
+
+article h3 {
+    font-size: 13px;
+    color: dimgray;
+    font-weight: 100;
+}
+
+hr {
+    width: 1200px;
+}
